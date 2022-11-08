@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Pagina de alimentos">
-        <meta name="author" content="Castro Joaquin">
-        <title>VIANDAS</title>
-     <link rel="stylesheet" href="/css/estilos.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina de alimentos">
+    <meta name="author" content="Castro Joaquin">
+    <title>VIANDAS</title>
+    <link rel="stylesheet" href="./css pagina principal/estilos.css">
+
+</head>
 
 
-    <body>
+<body>
     <header>
         <div class="logo">
             <img src="/img/Logo.png" alt="LOGO" height="50px" class="logo-img">
@@ -31,32 +32,31 @@
 
 
     <section id="menu">
-        <div class="container">
+        <div>
             <div id="submenu">
                 <h2>MENU</h2>
             </div>
-            <h4>descripcion</h4>
 
 
             <div id="menuimg">
-                <div>
+                <div class="img1">
                     <h3>Subtitulo</h3>
                     <p>descripcion</p>
-                    <img src="" alt="vianda 1">
+                    <img src="/img/plato 1.jfif" width="300px" alt="vianda 1">
                 </div>
 
 
-                <div>
+                <div class="img1">
                     <h3>Subtitulo</h3>
                     <p>descripcion</p>
-                    <img src="" alt="vianda 2">
+                    <img src="/img/plato 2.jpg" width="300px" alt="vianda 2">
                 </div>
 
 
-                <div>
+                <div class="img1">
                     <h3>Subtitulo</h3>
                     <p>descripcion</p>
-                    <img src="" alt="vianda 3">
+                    <img src="/img/plato 3.jpg" width="300px" alt="vianda 3">
                 </div>
             </div>
         </div>
@@ -66,38 +66,43 @@
     </section>
 
     <section id="promociones">
-        <div class="container">
-            <h2> PROMOCIONES</h2>
-            <div>
+        <div id="subpromociones">
+            <h4> PROMOCIONES</h4>
+        </div>
+        <div id="subpromoimg">
+            <div class="promo1">
                 <h3>Subtitulo</h3>
                 <p>descripcion</p>
-                <img src="" alt="promo 1">
+                <img src="/img/promo 1.jfif" width="100px" alt="promo 1">
             </div>
 
-            <div>
+            <div class="promo1">
                 <h3>Subtitulo</h3>
                 <p>descricion</p>
-                <img src="" alt="promo 2">
+                <img src="/img/promo 2.jpeg" width="100px" alt="promo 2">
             </div>
 
-            <div>
+            <div class="promo1">
                 <h3>Subtitulo</h3>
                 <p>descripcion</p>
-                <img src="" alt="promo 3">
+                <img src="/img/promo 3.jpg" width="100px" alt="promo 3">
             </div>
         </div>
 
+
     </section>
 
-    <section id="Quienes somos">
+    <section id="presentacion">
 
-        <div class="container">
+        <div class="presentacionclass">
             <div id="subpresentacion">
                 <h2>Quienes Somos</h2>
             </div>
-            <p> Somos una familia dedicados al rubro gastronomico, especialmente a las viandas <br>
-                Brindamos la mejor atencion y calidad para que nuestros clientes siempre vuelvan <br>
-                No dudes en probar alguna de nuestras variedades!
+            <div>
+                <p> Somos una familia dedicados al rubro gastronomico, especialmente a las viandas <br>
+                    Brindamos la mejor atencion y calidad para que nuestros clientes siempre vuelvan <br>
+                    No dudes en probar alguna de nuestras variedades!
+            </div>
             </p>
         </div>
         >
@@ -105,25 +110,59 @@
     </section>
 
     <footer>
-        <div id="Contactanos">
-            <ul>
-                <li>
-                    <img src="" alt="logo whatsapp">
-                    <span>whatsapp</span>
-                </li>
-                <li>
-                    <img src="" alt="instagram">
-                    <span>instagram</span>
-                </li>
-                <li>
-                    <img src="" alt="facebook">
-                    <span>facebook</span>
-                </li>
-            </ul>
+        <div id="contactanos">
+
+            <div class="logos">
+                <img src="/img/logo whatsapp.png" height="50px" alt="whatsapp">
+                <nav>
+                    <a href="http://facebook.com">
+                </nav>
+            </div>
+
+            <div class="logos">
+                <img src="/img/logo facebook.webp" height="50px" alt="facebook">
+                <nav>
+                    <a href="http://instagram.com">
+                </nav>
+
+
+
+            </div>
+
+
+
+            <div class="logos">
+                <img src="/img/logo instagram.png" height="50px" alt="instagram">
+                <nav>
+                    <a href="http://web.whatsapp.com">
+                </nav>
+
+            </div>
+
+
+
         </div>
-        <div>
-            <img src="" alt="estrellas de puntaje">
-            <span>dejanos tu puntaje</span>
+        <div id="subcontactanos">
+            <div class="columna">
+                <i class="fa-solid fa-2xl fa-star"></i>
+            </div>
+            <div class="columna">
+                <i class="fa-solid fa-2xl fa-star"></i>
+            </div>
+            <div class="columna">
+                <i class="fa-solid fa-2xl fa-star"></i>
+            </div>
+            <div class="columna">
+                <i class="fa-solid fa-2xl fa-star"></i>
+            </div>
+            <div class="columna">
+                <i class="fa-regular fa-2xl fa-star"></i>
+            </div>
+            <div class="columna">
+                <i class="fa-sharp fa-solid fa-2xl fa-qrcode"></i>
+            </div>
+            <h4>dejanos tu puntaje<h4>
+                
         </div>
     </footer>
 
